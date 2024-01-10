@@ -13,7 +13,10 @@ diesel <- 0
        escreval("Informe um codigo (1, 2, 3) ou 4 para parar:")
        leia(voto)
        
-       enquanto (voto < 4) faca
+       enquanto (voto < 1) e (voto > 4) faca
+                escreva("Código inválido! Tente novamente.")
+       fimenquanto
+
                 se voto = 1 entao
                    alcool <- alcool + 1
                    senao
