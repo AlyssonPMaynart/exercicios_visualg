@@ -30,17 +30,17 @@ Inicio
    fimpara
    media <- soma / n
    
-   escreval("Altura media:", media)
+   escreval("Altura media:", media:4:2)
 
    // PORCENTAGEM
-
+   cont <- 0
    para i de 0 ate n - 1 faca
         se idade[i] < 16 entao
         cont <- cont + 1
         fimse
    fimpara
    porcentagem <- cont * 100 / n
-   escreval("Pessoas com menos de 16 anos: ", porcentagem, "%")
+   escreval("Pessoas com menos de 16 anos: ", porcentagem:3:1, "%")
    
    // NOME DOS MENORES DE 16 ANOS
    
